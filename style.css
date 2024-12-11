@@ -1,0 +1,413 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 105%;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.main {
+  height: 70%;
+  width: 100%;
+  background-image: url(Screenshot\ 2024-12-06\ 235718.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* opacity: 0.7; */
+}
+
+.nav {
+  height: 80px;
+  /* background-color: red; */
+  border-bottom: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 10%;
+}
+
+.anchor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.anchor h1 {
+  background-color: white;
+  /* width: 40px; */
+  height: 30px;
+  font-size:25px;
+  line-height: 1;
+  font-weight: 900;
+}
+.anchor a {
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+.anchor span {
+    background-color: rgb(248, 19, 57);
+height: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    /* margin-right: 10px; */
+    font-size: 30px;
+    color: white;
+    
+}
+
+.signin {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin p {
+    /* margin-left: 20px; */
+    margin-right: 23px;
+}
+.signin i{
+    margin-right: 20px;
+}
+
+.content {
+    color: white;
+    padding: 7% 10%;
+}
+
+.content h1 {
+    font-size: 55px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.content button {
+    height: 40px;
+    background-color: transparent;
+    width: 110px;
+    color: white;
+    border: 2px solid white;
+    margin-top: 40px;
+}
+.content button a {
+    text-decoration: none;
+    color: white;
+}
+
+.content2{
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    gap: 100px;
+    padding: 3% 10%;
+}
+
+.p1 {
+    height: 100%;
+    width: 25%;
+    background-color: white;
+}
+.music i {
+    background-color:rgb(248, 19, 57);
+    width: 100%;
+    height: 40px;
+    border-radius: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.music{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(248, 19, 57);
+    padding: 1% 1%;
+    color:white ;
+    font-size:19px;
+    margin-bottom: 20px;
+}
+
+.p1 p {
+    margin-top: 20px;
+    
+    font-size: 13px;
+}
+
+.page2 {
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.div1{
+    height: 40%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 2.5% 10%;
+    background-image: url(WhatsApp\ Image\ 2024-12-10\ at\ 00.45.53_7ddfdce2.jpg);
+   
+}
+
+.table {
+    height: 100%;
+    width: 85%;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+}
+
+.div2{
+    /* background-color: yellow; */
+    height: 40%;
+    width: 80%;
+    margin-top: 60px;
+    margin-left: 130px;
+}
+
+.tb1 {
+    height: 25%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    color: white;
+    border-bottom: 1px solid white;
+
+}
+.tb1 h2 {
+    margin-left: 25px;
+    font-weight: 500;
+    
+}
+.tb2 {
+    height: 75%;
+    width: 100%;
+    /* background-color: purple; */
+    display: flex;
+}
+
+.a1{
+height: 100%;
+width: 33.33%;
+/* background-color: wheat; */
+padding: 2% 3%;
+font-size: 13px;
+color: white;
+border-right: 1px solid white;
+}
+.a1 h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.a1 i {
+    font-size: 15px;
+    margin-top: 25px;
+}
+.a1 p {
+    opacity: 0.6;
+}
+
+.a2 {
+    /* background-color: black; */
+}
+
+.a3 {
+    /* background-color: blue; */
+}
+
+.table {
+    border: 1px solid white;
+}
+
+.table2 {
+    height: 90%;
+    width: 85.7%;
+    /* background-color: yellow; */
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+.b1 {
+    height: 25%;
+    width: 100%;
+    /* background-color: orange; */
+    margin-bottom: 15px;
+    
+}
+.b1 h1{
+    font-weight: 500;
+    
+}
+
+.b2 {
+    height: 75%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    gap: 2%;
+}
+
+.c1 {
+    height: 100%;
+    width: 49%;
+    /* background-color: yellow; */
+    display: flex;
+   
+}
+
+.c2 {
+    /* background-color: red; */
+    
+}
+
+.d1 {
+    height: 100%;
+    width: 30%;
+    background-color: grey;
+    
+}
+.d2 {
+    height: 100%;
+    width: 70%;
+    /* background-color: brown; */
+    background-image: url(church-life-church-youth-group-worship.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.d3 {
+    background-image: url(Funu2t9ndGQMK9gHo7afza-1200-80.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.e1 {
+    height: 55%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: rgb(248, 19, 57);
+}
+
+.e1 span {
+    font-size: 57px;
+}
+.e1 h1 {
+    font-size: 30px;
+    color: rgb(248, 19, 57);
+}
+.e2 {
+    height: 45%;
+    width: 100%;
+    background-color: rgb(248, 19, 57);
+    color: white;
+    padding-left: 4%;
+}
+.e2 h4 {
+    font-size: 15px;
+    margin-top: 8px;
+}
+.e2 i {
+    margin-top: 8px;
+}
+.e2 p {
+    font-size: 14px;
+}
+.dot{
+    height: 7%;
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.dot i {
+    font-size: 10px;
+    margin-left: 10px;
+    color: rgb(248, 19, 57);
+    
+}
+.y{
+    color: rgb(248, 19, 57);
+}
+
+/* page3 */
+
+.page3{
+    height: 35%;
+    width: 100%;
+    background-color: rgb(72, 11, 11);
+}
+.con{
+height: 16%;
+width: 100%;
+background-color: rgb(248, 19, 57);
+padding: 0.1% 10%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.con h3 {
+   background-color: white;
+    /* width: 40px; */
+    /* height: 0px; */
+    font-size:25px;
+    line-height: 1;
+    font-weight: 800;
+    /* margin-top: 20px; */
+    color: black;
+  }
+  .con span {
+    background-color: rgb(248, 19, 57);
+height: 25px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    /* margin-right: 10px; */
+    font-size: 25px;
+    color: white;
+    border: 2px solid white;
+    
+}
+
+.icon i {
+    color: white;
+    margin-left: 15px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.v {
+    margin-top: 30px;
+
+
+    display: flex;
+    flex-direction: column;
+    /* font-size: 18px; */
+}
+
+.v h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.v p {
+    margin-top: -15px;
+}
